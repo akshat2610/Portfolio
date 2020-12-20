@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Akshat Bansal",
   title: "Hello World!",
-  subTitle: emoji("My name is Akshat. I am a senior in Computer Science at San Jose State University. I interned at Sleep Number as a Cloud Engineer where I worked with multithreaded, performance-driven, and highly-scalable codebase. I was responsible for writing Java code to capture metrics like CPU usage, memory usage, API response times of many services that were deployed on AWS. I also built DataDog dashboards for monitoring the metrics that we captured and setting alerts for critical loads.\nI care deeply about the scalability, performance, and security of any code that I ship to production. "),
+  subTitle: emoji("My name is Akshat. I am a senior in Computer Science at San Jose State University. During my internship at Sleep Number as a Cloud Engineer, I worked with multithreaded, performance-driven, and highly-scalable codebase. I was responsible for writing Java code to capture metrics like CPU usage, memory usage, API response times of many services that were deployed on AWS. I also built DataDog dashboards for monitoring the metrics that we captured and setting alerts for critical loads.\nI care deeply about the scalability, performance, and security of any code that I ship to production. "),
   resumeLink: "https://drive.google.com/file/d/1x7pntquAFCT6HyMuHEMN8XvwO5Z8IbDl/view?usp=sharing"
 };
 
@@ -71,20 +71,20 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "San Jose State University",
-      logo: require("./assets/images/sjsuLogo.png"),
-      subHeader: "Bachelors of Science in Computer Science",
-      duration: "August 2017 - Present",
-      gpa: "3.7/4.0",
-      awards: "Honors and awards:",
-      awardsBullets: [
-        "Dean's scholar 2017",
-        "President's scholar 2018",
-        "Dean's scholar 2019",
-        "Part of the Phi Kappa Phi honor society (Top 10% of the 2021 class)"
+      role: "Bachelors of Science in Computer Science",
+      company: "San Jose State University",
+      companylogo: require("./assets/images/sjsuLogo.png"),
+      date: "August 2017 - Present",
+      desc: "3.7/4.0",
+      daily: "Honors and awards:",
+      dailyBullets: [
+        "Dean's Scholar 2017",
+        "President's Scholar 2018",
+        "Dean's Scholar 2019",
+        "Member of Phi Kappa Phi honor society (Top 10% of the 2021 class)"
       ],
-      coursework: "Some of the interesting classes that I took: ",
-      courseworkBullets: [
+      tools: "Some of the interesting classes that I took: ",
+      toolsBullets: [
         "Data structures and algorithms",
         "Object-oriented design",
         "Operating systems",
@@ -152,7 +152,7 @@ const workExperiences = {
       toolsBullets:[
         "AWS for our microservices architecture.",
         "DataDog for infrastructure monitoring.",
-        "Jira for progress tracking.",
+        "JIRA for progress tracking.",
         "Confluence for documentation.",
         "Sumo logic for error logging."
       ]

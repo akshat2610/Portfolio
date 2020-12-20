@@ -1,76 +1,47 @@
-import React, { createRef, useContext } from "react";
-import { Fade, Slide, Zoom } from "react-reveal";
+import React, { useState, useEffect, createRef } from "react";
 import "./EducationCard.css";
-import StyleContext from "../../contexts/StyleContext";
+import ColorThief from "colorthief";
 
-export default function EducationCard({ school }) {
+export default function EducationCard({ cardInfo, isDark }) {
+  const [colorArrays, setColorArrays] = useState([]);
   const imgRef = createRef();
 
-  const GetDescBullets = ({ descBullets }) => {
-    return descBullets
-      ? descBullets.map((item) => <li className="subTitle">{item}</li>)
-      : null;
-  };
-  const { isDark } = useContext(StyleContext);
-  return (
-    <div>
-      <Fade left duration={1000}>
-        <div className="education-card">
-          <div className="education-card-left">
-            <img
-              crossOrigin={"anonymous"}
-              ref={imgRef}
-              className="education-roundedimg"
-              src={school.logo}
-              alt={school.schoolName}
-            />
-          </div>
-          <div className="education-card-right">
-            <h5 className="education-text-school">{school.schoolName}</h5>
+  function getColorArrays() {
+    const colorThief = new ColorThief();
+    setColorArrays(colorThief.getColor(imgRef.current));
+  }
 
-            <div className="education-text-details">
-              <h5
-                className={
-                  isDark
-                    ? "dark-mode education-text-subHeader"
-                    : "education-text-subHeader"
-                }
-              >
-                {school.subHeader}
-              </h5>
-              <p
-                className={`${
-                  isDark ? "dark-mode" : ""
-                } education-text-duration`}
-              >
-                {school.duration}
-              </p>
-              <p
-                className={`${
-                  isDark ? "dark-mode" : ""
-                } education-text-duration`}
-              >
-                {school.gpa}
-              </p>
-              <p className="education-text-desc">{school.awards}</p>
-              <div className="education-text-bullets">
-                <ul>
-                  <GetDescBullets descBullets={school.awardsBullets} />
-                </ul>
-              </div>
-              <p className="education-text-desc">{school.coursework}</p>
-              <div className="education-text-bullets">
-                <ul>
-                  <GetDescBullets descBullets={school.courseworkBullets} />
-                </ul>
-              </div>
-            </div>
-          </div>
+  function rgb(values) {
+    return typeof values === "undefined" ? null : "rgb(" + values.join(', ') + ")";
+  }
+
+  const GetDescBullets = ({ descBullets, isDark }) => {
+    return descBullets ? descBullets.map((item) => <li className={isDark ? "subTitle dark-mode-text": "subTitle"}>{item}</li>) : null
+  };
+
+  return (
+    <div className={isDark ? "education-card-dark":"education-card"}>
+      <div style={{background: rgb(colorArrays) }} className="education-banner">
+        <div className="education-blurred_div"></div>
+        <div className="education-div-company">
+          <h5 className="education-text-company">{cardInfo.company}</h5>
         </div>
-      </Fade>
-      <Slide left duration={2000}>
-        <div className="education-card-border"></div>
-      </Slide>
+
+        <img crossOrigin={"anonymous"} ref={imgRef} className="education-roundedimg" src={cardInfo.companylogo} alt={cardInfo.company} onLoad={() => getColorArrays()}/>
+      </div>
+      <div className="education-text-details">
+        <h5 className={isDark ? "education-text-role dark-mode-text":"education-text-role"}>{cardInfo.role}</h5>
+        <h5 className={isDark ? "education-text-date dark-mode-text":"education-text-date"}>{cardInfo.date}</h5>
+        <p className={isDark ? "subTitle education-text-desc dark-mode-text":"subTitle education-text-desc"}>{cardInfo.desc}</p>
+        <p className="bullet-header"> {cardInfo.daily} </p>
+        <ul>
+          <GetDescBullets descBullets={cardInfo.dailyBullets} isDark={isDark} />
+        </ul>
+        <p className="bullet-header"> {cardInfo.tools} </p>
+        <ul>
+          <GetDescBullets descBullets={cardInfo.toolsBullets} isDark={isDark} />
+        </ul>
+      </div>
     </div>
   );
 }

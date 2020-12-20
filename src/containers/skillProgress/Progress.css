@@ -38,7 +38,6 @@
 }
 
 .skills-image > img {
-    margin-left: 80px;
     max-width: 100%;
     height: auto;
     border-radius: 100px;
@@ -53,10 +52,6 @@
 @media (max-width: 1456px) {
     .skills-bar {
         line-height: 4rem;
-    }
-    .skills-image {
-        display: none;
-        order: 2;
     }
 }
 
