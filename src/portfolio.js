@@ -152,7 +152,7 @@ const workExperiences = {
       toolsBullets:[
         "AWS for our microservices architecture.",
         "DataDog for infrastructure monitoring.",
-        "JIRA for progress tracking.",
+        "Jira for progress tracking.",
         "Confluence for documentation.",
         "Sumo logic for error logging."
       ]
