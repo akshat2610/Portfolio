@@ -1,29 +1,13 @@
-.main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 4rem;
-}
-.greet-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-  display: grid;
-}
-
-.gretting-main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-}
-
 .subTitle {
   color: #868e96 !important;
 }
 
 .greeting-main {
   display: flex;
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
 }
 
 .greeting-main > * {
@@ -42,21 +26,16 @@
 }
 
 .greeting-text-p {
-  font-family:  sans-serif;
-  font-size: 30px;
-  line-height: 40px;
-}
-
-
-.greeting-image-div{
-  margin: auto auto auto auto;
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 45px;
 }
 
 .greeting-image-div > img {
-  width: 100%;
+  width: 80%;
   height: auto;
-  border-radius: 100px;
-  transform: scale(0.7);
+  border-radius: 20px;
+  margin: 50px 150px;
 }
 .wave-emoji {
   animation-duration: 1.8s;
@@ -114,5 +93,12 @@
   }
   .greeting-main {
     display: block;
+  }
+  .greeting-image-div > img {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    margin: auto auto;
+    display: grid;
   }
 }

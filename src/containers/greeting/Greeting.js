@@ -11,16 +11,13 @@ export default function Greeting() {
   const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="40px">
-      <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
-            <div>
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
                 className={
@@ -29,7 +26,16 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {greeting.intro}
+              </p>
+              <p
+                className={
+                  isDark
+                    ? "dark-mode greeting-text-p"
+                    : "greeting-text-p subTitle"
+                }
+              >
+                {greeting.work}
               </p>
               <SocialMedia />
               <div className="button-greeting-div">
@@ -39,7 +45,6 @@ export default function Greeting() {
                   newTab={true}
                   href={greeting.resumeLink}
                 />
-              </div>
             </div>
           </div>
           <div className="greeting-image-div">
@@ -49,7 +54,6 @@ export default function Greeting() {
             ></img>
           </div>
         </div>
-      </div>
     </Fade>
   );
 }
