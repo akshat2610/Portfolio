@@ -14,7 +14,7 @@ export default function Skills() {
           <div className="skills-image-div">
             <img
               alt="Values"
-              src={require("../../assets/images/valuesLogo.png")}
+              src={require("../../assets/images/SDLCLogo.png")}
             ></img>
           </div>
         </Fade>

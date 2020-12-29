@@ -238,7 +238,7 @@ const projects = {
 
 const contactInfo = {
   title: emoji("Lets connect!"),
-  subtitle: "I am always open for discussing a project or having a deeply philosophical conversation.",
+  subtitle: "Are you looking for a sincere, motivated, and passionate software developer?", 
   number: "+1-408-688-4846",
   email_address: "akshat2610@gmail.com"
 };
