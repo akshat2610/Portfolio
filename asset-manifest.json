@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.48ca62e3.chunk.css",
-    "main.js": "/static/js/main.8cbee4e0.chunk.js",
-    "main.js.map": "/static/js/main.8cbee4e0.chunk.js.map",
+    "main.css": "/static/css/main.29a80220.chunk.css",
+    "main.js": "/static/js/main.7ff91fb4.chunk.js",
+    "main.js.map": "/static/js/main.7ff91fb4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.914512f5.js",
     "runtime-main.js.map": "/static/js/runtime-main.914512f5.js.map",
-    "static/js/2.3f69e342.chunk.js": "/static/js/2.3f69e342.chunk.js",
-    "static/js/2.3f69e342.chunk.js.map": "/static/js/2.3f69e342.chunk.js.map",
+    "static/js/2.172c6e16.chunk.js": "/static/js/2.172c6e16.chunk.js",
+    "static/js/2.172c6e16.chunk.js.map": "/static/js/2.172c6e16.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4139bd579f13334e739197d353e520ff.js": "/precache-manifest.4139bd579f13334e739197d353e520ff.js",
+    "precache-manifest.bf162902a71cb0769b08420400954cbf.js": "/precache-manifest.bf162902a71cb0769b08420400954cbf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.48ca62e3.chunk.css.map": "/static/css/main.48ca62e3.chunk.css.map",
+    "static/css/main.29a80220.chunk.css.map": "/static/css/main.29a80220.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/SNLogo.png": "/static/media/SNLogo.0a4888f8.png",
-    "static/media/handshakeLogo.png": "/static/media/handshakeLogo.8ae3eb37.png",
-    "static/media/linkedinLogo.webp": "/static/media/linkedinLogo.9d633c7d.webp",
+    "static/media/SDLCLogo.png": "/static/media/SDLCLogo.895055e5.png",
+    "static/media/SNLogo.png": "/static/media/SNLogo.efadadf6.png",
+    "static/media/linkedinLogo.webp": "/static/media/linkedinLogo.c6e65d79.webp",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
     "static/media/profilePhoto.jpeg": "/static/media/profilePhoto.807aa889.jpeg",
-    "static/media/rocketLogo.png": "/static/media/rocketLogo.f40d2ccd.png",
-    "static/media/sjsuLogo.png": "/static/media/sjsuLogo.720b1cbe.png",
+    "static/media/rocketLogo.png": "/static/media/rocketLogo.67f3e18f.png",
+    "static/media/sjsuLogo.png": "/static/media/sjsuLogo.8031c795.png",
     "static/media/systemLogo.png": "/static/media/systemLogo.25b7d143.png",
     "static/media/valuesLogo.png": "/static/media/valuesLogo.7e31b892.png"
   },
   "entrypoints": [
     "static/js/runtime-main.914512f5.js",
-    "static/js/2.3f69e342.chunk.js",
-    "static/css/main.48ca62e3.chunk.css",
-    "static/js/main.8cbee4e0.chunk.js"
+    "static/js/2.172c6e16.chunk.js",
+    "static/css/main.29a80220.chunk.css",
+    "static/js/main.7ff91fb4.chunk.js"
   ]
 }

@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cc48e50007822e0a9f9be8b41efa9b0",
+    "revision": "086fbf5b7d70be9c2c2b635233490778",
     "url": "/index.html"
   },
   {
-    "revision": "b5c5f400f573bbccaaf1",
-    "url": "/static/css/main.48ca62e3.chunk.css"
+    "revision": "c7c97f69cd453c3497fd",
+    "url": "/static/css/main.29a80220.chunk.css"
   },
   {
-    "revision": "c5a29219c05c9a9bd8c5",
-    "url": "/static/js/2.3f69e342.chunk.js"
+    "revision": "1b0d422838db602a1cad",
+    "url": "/static/js/2.172c6e16.chunk.js"
   },
   {
-    "revision": "b5c5f400f573bbccaaf1",
-    "url": "/static/js/main.8cbee4e0.chunk.js"
+    "revision": "c7c97f69cd453c3497fd",
+    "url": "/static/js/main.7ff91fb4.chunk.js"
   },
   {
     "revision": "9f0496347e514a7bab67",
@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "0a4888f8594716d6e374f9b2dce780bd",
-    "url": "/static/media/SNLogo.0a4888f8.png"
+    "revision": "895055e58873480949ef2c06f8daf8bf",
+    "url": "/static/media/SDLCLogo.895055e5.png"
   },
   {
-    "revision": "8ae3eb37e8e069db9f2386678998bcaf",
-    "url": "/static/media/handshakeLogo.8ae3eb37.png"
+    "revision": "efadadf6a9f4597fa58e1b6001680dd5",
+    "url": "/static/media/SNLogo.efadadf6.png"
   },
   {
-    "revision": "9d633c7d6941867195d7fb7eb9bd21b7",
-    "url": "/static/media/linkedinLogo.9d633c7d.webp"
+    "revision": "c6e65d793756fdfc3e624c0d8294b3de",
+    "url": "/static/media/linkedinLogo.c6e65d79.webp"
   },
   {
     "revision": "25bf045ca257e971124f3997d89f321c",
@@ -48,12 +48,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profilePhoto.807aa889.jpeg"
   },
   {
-    "revision": "f40d2ccd92a62a10f5a076a1e324ba13",
-    "url": "/static/media/rocketLogo.f40d2ccd.png"
+    "revision": "67f3e18f62e8292ff3dc101e13f55c9c",
+    "url": "/static/media/rocketLogo.67f3e18f.png"
   },
   {
-    "revision": "720b1cbe0644a0ee142d0adc12989cd6",
-    "url": "/static/media/sjsuLogo.720b1cbe.png"
+    "revision": "8031c795c922e5738963e1dcf6f9bd5f",
+    "url": "/static/media/sjsuLogo.8031c795.png"
   },
   {
     "revision": "25b7d1434e63c9f06c3bd8250e5f44e3",
