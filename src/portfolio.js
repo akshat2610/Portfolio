@@ -236,11 +236,89 @@ const projects = {
   ]
 };
 
+const liveProjects = {
+  viewProjects: true, //Set it to true to show workExperiences Section
+  project : [
+    {
+      desc: "Reduces video content upto 40% using NLP",
+      name: "summarAIze",
+      projectLogo: require("./assets/images/summarAIzeLogo.png"),
+      date: "August 2020 - December 2020",
+      problemStatement: "Problem statement: Too much information causes information overload and only a small percantage of it is useful.",
+      usage: "How to use?",
+      usageBullets: [
+        "Upload the video.",
+        "Upload the transcript.",
+        "Upload the list of relevant keywords.",
+        "Take a walk and the summary is ready."
+      ],
+      working: "How it works?",
+      workingBullets:[
+        "Parse the transcript to map sentences to their respective timestamps.",
+        "Preprocess the transcript -  removes punctuation, removes stopwords, and stems the words.",
+        "Preprocess the keywords - removes punctuation and stems the keywords.",
+        "Compare preprocessed keywords and preprocessed transcript to save relevant timestamps.",
+        "Clips the video according to the collected timestamps.",
+        "Exports the summary video by concatenating the subclips."
+      ],
+      link: "https://github.com/akshat2610/Video-summary-project"
+    },
+    {
+      desc: "Helps manage personal and work related tasks",
+      name: "Project Management Tool",
+      projectLogo: require("./assets/images/rocketLogo.png"),
+      date: "August 2019 - December 2019",
+      problemStatement: "Problem statement: Managing work and life is tedious and prioritizing the important tasks becomes complex.",
+      usage: "How to use?",
+      usageBullets: [
+        "Add task details {name, deadline, priority, importance, number of hours required}.",
+        "Get prioritied plan, track tasks by clocking in hours for each, and mark them off the list.",
+        "Journal daily activities and events.",
+        "Get insights into how you spend your time."
+      ],
+      working: "How it works?",
+      workingBullets:[
+        "Scores tasks according to importance vs urgency matrix.",
+        "Takes into account the deadline and number of hours required.",
+        "Uses custom algorithm to come up with a plan that maximizes the score.",
+        "Visualizes weekly workload to help make informed decisions about time commitments",
+        "Visualizes hours spent on different activities and events to help minimize bad habits and maximize good habits."
+      ],
+      link: "https://github.com/akshat2610/Planner"
+    },
+    {
+      desc: "Scrapes LinkedIn jobs and identifies hot skills.",
+      name: "Linkedin scraper and analytics tool",
+      projectLogo: require("./assets/images/linkedinLogo.webp"),
+      date: "August 2019 - December 2019",
+      problemStatement: "Problem statement: Collecting jobs to apply to is tedious and reading through job description is time consuming.",
+      usage: "How to use?",
+      usageBullets: [
+        "Provide link to the linkedin page of a job you like.",
+        "Fill in the relevant keywords (Data Science, Software engineering, social media marketing, etc).",
+        "Take a walk and the excel sheet containing all the job details is ready along with frequency visualization of most frequent skills.",
+      ],
+      working: "How it works",
+      workingBullets:[
+        "Crawls the linkedin pages with similar jobs using a breadth-first approach.",
+        "Extracts useful information from the html of the page using lxml parser.",
+        "Writes the collected infromation to an excel file.",
+        "Creates a dictionary to store the frequency counts of relevant keywords",
+        "Plots skill vs frequency.",
+      ],
+      link: "https://github.com/akshat2610/LinkedIn-Automation-Scraping-and-Analysis"
+    }
+  ]
+};
+
+
+
+
 const contactInfo = {
   title: emoji("Lets connect!"),
-  subtitle: "Are you looking for a sincere, motivated, and passionate software developer?", 
+  subtitle: "Are you looking for a sincere, motivated, and passionate software developer?",
   number: "+1-408-688-4846",
   email_address: "akshat2610@gmail.com"
 };
 
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, projects, contactInfo};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, projects, contactInfo, liveProjects};

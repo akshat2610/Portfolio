@@ -1,11 +1,10 @@
 import React, {useContext} from "react";
 import "./Project.css";
 import ProjectCard from "../../components/projectCard/ProjectCard";
-import { projects } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
-export default function Project() {
+export default function Project({projects}) {
     const {isDark} = useContext(StyleContext)
     if(projects.viewProjects){
         return (

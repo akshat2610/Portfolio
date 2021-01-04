@@ -12,6 +12,8 @@ import Top from "./topbutton/Top";
 import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
 import { educationInfo } from "../portfolio";
+import { projects } from "../portfolio";
+import { liveProjects } from "../portfolio";
 
 export default class Main extends Component {
   constructor(props) {
@@ -42,7 +44,8 @@ export default class Main extends Component {
           <StackProgress />
           <Education />
           <WorkExperience />
-          <Project />
+          <Project projects={projects} />
+          <Project projects={liveProjects} />
           <Contact />
           <Top />
         </StyleProvider>
