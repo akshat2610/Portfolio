@@ -64,7 +64,7 @@
         margin: 20px;
     }
     .skills-image {
-        display: none;
+        display: grid;
         order: 2;
     }
 }
