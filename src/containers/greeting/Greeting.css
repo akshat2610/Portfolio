@@ -1,0 +1,120 @@
+.subTitle {
+  color: #868e96 !important;
+}
+
+.greeting-heading{
+    position: relative;
+    display: flex;
+    width: 90%;
+    padding: 15px 15px;
+    margin: 0px auto;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.greeting-main {
+  display: flex;
+  width: 89%;
+  padding: 10px 10px;
+  margin: 0px auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  background-color: inherit;
+  box-shadow: rgba(0, 0, 0, 0.2) 20px 10px 20px -10px;
+  border-radius: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.397);
+}
+
+.greeting-main > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+.button-greeting-div {
+  display: flex;
+  margin-top: 20px;
+}
+
+.greeting-text {
+  font-size: 70px;
+  line-height: 1.1;
+  color: black !important;
+}
+
+.greeting-text-p {
+  font-family: Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 45px;
+}
+
+.greeting-image-div > img {
+  width: 75%;
+  height: auto;
+  border-radius: 20px;
+  margin: 50px 150px;
+}
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .greeting-text {
+    font-size: 50px;
+  }
+  .greeting-text-p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .button-greeting-div {
+    justify-content: space-around;
+  }
+  .greeting-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+  .greeting-main {
+    display: block;
+  }
+  .greeting-image-div > img {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    margin: auto auto;
+    display: grid;
+  }
+}
