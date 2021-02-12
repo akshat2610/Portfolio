@@ -107,31 +107,23 @@ const techStack = {
   experience: [
     {
       Stack: "Software Engineering",
-      progressPercentage: "85%"
+      progressPercentage: "95%"
     },
     {
       Stack: "Data structures and algorithms",  //Insert stack or technology you have experience in
-      progressPercentage: "80%"  //Insert relative proficiency in percentage
+      progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Design patterns",
-      progressPercentage: "75%"
+      progressPercentage: "85%"
     },
     {
       Stack: "System design",
-      progressPercentage: "60%"
+      progressPercentage: "75%"
     },
     {
       Stack: "Natural Language Processing",
-      progressPercentage: "60%"
-    },
-    {
-      Stack: "DevOps",
-      progressPercentage: "55%"
-    },
-    {
-      Stack: "Testing",
-      progressPercentage: "50%"
+      progressPercentage: "70%"
     }
   ]
 };
@@ -195,8 +187,7 @@ const projects = {
         "Exports the summary video by concatenating the subclips."
       ],
       tools: "Python, nltk, moviePy, Selenium, Flask, Docker",
-      link: "https://github.com/akshat2610/Video-summary-project",
-      demo: "https://drive.google.com/file/d/1Ha5noWjpkaVcAFaGXY2Kfz1iCUc99FNR/view"
+      link: "https://github.com/akshat2610/Video-summary-project"
     },
     {
       desc: "Helps manage personal and work related tasks",
@@ -220,8 +211,7 @@ const projects = {
         "Visualizes hours spent on different activities and events to help minimize bad habits and maximize good habits."
       ],
       tools: "Java, Swing, JUnit",
-      link: "https://github.com/akshat2610/Planner",
-      demo: "https://drive.google.com/file/d/1ps3_L1xEywmkdyBUGcGfcqQ8fJFxo0v4/view"
+      link: "https://github.com/akshat2610/Planner"
     },
     {
       desc: "Scrapes LinkedIn jobs and identifies hot skills",
@@ -235,7 +225,7 @@ const projects = {
         "Fill in the relevant keywords (Data Science, Software engineering, social media marketing, etc).",
         "Take a walk and the excel sheet containing all the job details is ready along with frequency visualization of most frequent skills.",
       ],
-      working: "How it works?",
+      working: "How it works",
       workingBullets:[
         "Crawls the linkedin pages with similar jobs using a breadth-first approach.",
         "Extracts useful information from the html of the page using lxml parser.",
@@ -253,68 +243,73 @@ const liveProjects = {
   viewProjects: true, //Set it to true to show workExperiences Section
   project : [
     {
-      desc: "Compares GitHub contributions",
-      name: "GitHub social",
-      projectLogo: require("./assets/images/githubLogo.png"),
+      desc: "Reduces video content upto 40% using NLP",
+      name: "summarAIze",
+      projectLogo: require("./assets/images/summarAIzeLogo.png"),
       date: "August 2020 - December 2020",
-      problemStatement: "Wanted to learn React and GraphQL",
+      problemStatement: "Too much information causes information overload and only a small percantage of it is useful.",
       usage: "How to use?",
       usageBullets: [
-        "Type any GitHub username"
+        "Upload the video.",
+        "Upload the transcript.",
+        "Upload the list of relevant keywords.",
+        "Take a walk and the summary is ready."
       ],
       working: "How it works?",
       workingBullets:[
-        "Queries GitHub's GraphQL to get the usernames of the people that the current user follows",
-        "Queries GitHub's REST api to get the contribution data",
-        "Plots username vs contribution data on a bar chart"
+        "Parse the transcript to map sentences to their respective timestamps.",
+        "Preprocess the transcript -  removes punctuation, removes stopwords, and stems the words.",
+        "Preprocess the keywords - removes punctuation and stems the keywords.",
+        "Compare preprocessed keywords and preprocessed transcript to save relevant timestamps.",
+        "Clips the video according to the collected timestamps.",
+        "Exports the summary video by concatenating the subclips."
       ],
-      tools: "React, REST api, GraphQL, react-chartjs-2, Netlify",
-      link: "https://github.com/akshat2610/github-social",
-      demo: "https://socialgithub.netlify.app/"
+      link: "https://github.com/akshat2610/Video-summary-project"
     },
     {
-      desc: "Helps focus, plan, and track day",
-      name: "Day tracker",
-      projectLogo: require("./assets/images/trackerLogo.png"),
+      desc: "Helps manage personal and work related tasks",
+      name: "Project Management Tool",
+      projectLogo: require("./assets/images/rocketLogo.png"),
       date: "August 2019 - December 2019",
-      problemStatement: "Modelled approach to organization and planning discussed in the book 'Designing your life'",
+      problemStatement: "Managing work and life is tedious and prioritizing the important tasks becomes complex.",
       usage: "How to use?",
       usageBullets: [
-        "Lock your focus for the day in hourly units for each - Health, Play, Work, and Love. ",
-        "Save single most important task for each",
-        "Set active task and select category",
-        "Start/stop task to see your progress with a circular progress bar"
+        "Add task details {name, deadline, priority, importance, number of hours required}.",
+        "Get prioritied plan, track tasks by clocking in hours for each, and mark them off the list.",
+        "Journal daily activities and events.",
+        "Get insights into how you spend your time."
       ],
       working: "How it works?",
       workingBullets:[
-        "Clock-in, clock-out system for each category",
+        "Scores tasks according to importance vs urgency matrix.",
+        "Takes into account the deadline and number of hours required.",
+        "Uses custom algorithm to come up with a plan that maximizes the score.",
+        "Visualizes weekly workload to help make informed decisions about time commitments",
+        "Visualizes hours spent on different activities and events to help minimize bad habits and maximize good habits."
       ],
-      tools: "React, Netlify",
-      link: "https://github.com/akshat2610/day-tracker",
-      demo: "https://day-tracker.netlify.app/"
+      link: "https://github.com/akshat2610/Planner"
     },
     {
-      desc: "Helps journal emotions and provides analysis on what factors affect user's happiness",
-      name: "Mood modelling",
-      projectLogo: require("./assets/images/moodLogo.png"),
+      desc: "Scrapes LinkedIn jobs and identifies hot skills.",
+      name: "Linkedin scraper and analytics tool",
+      projectLogo: require("./assets/images/linkedinLogo.webp"),
       date: "August 2019 - December 2019",
-      problemStatement: "Our senses are exposed to so much data that it becomes impossible to pinpoint our pain points.",
+      problemStatement: "Collecting jobs to apply to is tedious and reading through job description is time consuming.",
       usage: "How to use?",
       usageBullets: [
-        "Journal your emotions of the day",
-        "Record physical and social environment",
-        "Fill in diet and sleep quality",
+        "Provide link to the linkedin page of a job you like.",
+        "Fill in the relevant keywords (Data Science, Software engineering, social media marketing, etc).",
+        "Take a walk and the excel sheet containing all the job details is ready along with frequency visualization of most frequent skills.",
       ],
-      working: "How it works?",
+      working: "How it works",
       workingBullets:[
-        "User entries are saved in an RDS instance",
-        "Each possible activity has a neutral score in the beginning",
-        "As the user keeps journaling, the scores are reassigned according to the user's emotions",
-        "The score indicates how an activity affects a particular user",
+        "Crawls the linkedin pages with similar jobs using a breadth-first approach.",
+        "Extracts useful information from the html of the page using lxml parser.",
+        "Writes the collected infromation to an excel file.",
+        "Creates a dictionary to store the frequency counts of relevant keywords",
+        "Plots skill vs frequency.",
       ],
-      tools: "PHP, JavaScript, AWS RDS",
-      link: "https://github.com/akshat2610/Mood-modelling",
-      demo: "https://drive.google.com/file/d/1eMO5NZft-1CQJXe1BwgivYoM11QGL0nm/view?usp=sharing"
+      link: "https://github.com/akshat2610/LinkedIn-Automation-Scraping-and-Analysis"
     }
   ]
 };

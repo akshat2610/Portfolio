@@ -9,10 +9,10 @@ export default function Contact() {
   const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
-      <h1 className="heading contact-title">Let's connect!</h1>
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
+            <h1 className="heading contact-title">{contactInfo.title}</h1>
             <p
               className={
                 isDark
@@ -43,6 +43,12 @@ export default function Contact() {
               <br />
               <SocialMedia />
             </div>
+          </div>
+          <div className="contact-image-div">
+            <img
+              alt="Contact"
+              src={require("../../assets/images/valuesLogo.png")}
+            ></img>
           </div>
         </div>
       </div>

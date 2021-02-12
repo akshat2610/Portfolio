@@ -1,15 +1,9 @@
 .contact-div-main {
-  display: flow-root;
-  width: 89%;
+  display: flex;
+  width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-bottom: 0px;
-  position: relative;
-  background-color: inherit;
-  box-shadow: rgba(0, 0, 0, 0.2) 20px 10px 20px -10px;
-  border-radius: 10px;
-  border: 1px solid rgba(211, 211, 211, 0.397);
-  text-align: center;
+  margin-top: 2rem;
 }
 
 .dark-mode a {
@@ -17,15 +11,10 @@
 }
 
 .contact-div-main > * {
-  flex: 2;
+  flex: 1;
 }
 
 .contact-title {
-  position: relative;
-  display: flex;
-  width: 90%;
-  padding: 15px 15px;
-  margin: 0px auto;
   font-size: 65px;
   font-weight: 400;
 }
@@ -56,15 +45,13 @@
 }
 
 .contact-image-div > img {
-  width: 33%;
+  width: 60%;
   height: auto;
-  margin: auto;
   border-radius: 100px;
 }
 
 .contact-image-div > img {
-  display: subgrid;
-  flex-direction: column;
+  display: inline-block;
 }
 
 .contact-subtitle {

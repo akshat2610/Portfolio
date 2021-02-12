@@ -29,8 +29,7 @@ export default function Project({projects, label=""}) {
                                         working: card.working,
                                         workingBullets: card.workingBullets,
                                         tools: card.tools,
-                                        link: card.link,
-                                        demo: card.demo
+                                        link: card.link
                                     }}
                                 />
                             );

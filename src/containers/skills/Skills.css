@@ -1,14 +1,6 @@
 .skills-main-div {
   display: flex;
-  width: 89%;
-  padding: 20px 10px;
-  margin: 50px auto;
-  margin-top: 2rem;
-  position: relative;
-  background-color: inherit;
-  box-shadow: rgba(0, 0, 0, 0.2) 20px 10px 20px -10px;
-  border-radius: 10px;
-  border: 1px solid rgba(211, 211, 211, 0.397);
+  margin-right: 40px;
 }
 
 .skills-text-div {
@@ -66,7 +58,8 @@
     line-height: normal;
   }
   .skills-main-div {
-    flex-direction: column;
+    display: inline-grid;
+    margin: auto auto;
   }
   .skills-text-div {
     margin-left: 0px;

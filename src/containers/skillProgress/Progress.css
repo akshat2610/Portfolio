@@ -25,27 +25,13 @@
     width: 40%;
 }
 
-.skills-heading{
-  position: relative;
-  display: flex;
-  width: 90%;
-  padding: 20px 20px;
-  margin: 0px auto;
-}
-
 .skills-container {
     display: flex;
-    width: 89%;
+    width: 90%;
     padding: 20px 10px;
     margin: 0px auto;
     margin-top: 2rem;
-    position: relative;
-    background-color: inherit;
-    box-shadow: rgba(0, 0, 0, 0.2) 20px 10px 20px -10px;
-    border-radius: 10px;
-    border: 1px solid rgba(211, 211, 211, 0.397);
 }
-
 .skills-container > * {
     flex: 1;
     margin-bottom: 30px;

@@ -2,28 +2,12 @@
   color: #868e96 !important;
 }
 
-.greeting-heading{
-    position: relative;
-    display: flex;
-    width: 90%;
-    padding: 15px 15px;
-    margin: 0px auto;
-    font-size: 48px;
-    font-weight: 400;
-}
-
 .greeting-main {
   display: flex;
-  width: 89%;
-  padding: 10px 10px;
+  width: 90%;
+  padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  position: relative;
-  background-color: inherit;
-  box-shadow: rgba(0, 0, 0, 0.2) 20px 10px 20px -10px;
-  border-radius: 10px;
-  border: 1px solid rgba(211, 211, 211, 0.397);
+  margin-top: 2rem;
 }
 
 .greeting-main > * {
@@ -48,7 +32,7 @@
 }
 
 .greeting-image-div > img {
-  width: 75%;
+  width: 80%;
   height: auto;
   border-radius: 20px;
   margin: 50px 150px;

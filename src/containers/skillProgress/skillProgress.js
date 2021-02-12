@@ -7,9 +7,10 @@ export default function StackProgress() {
     if(techStack.viewSkillBars){
         return (
             <Fade bottom duration={1000} distance="20px">
-            <h1 className="skills-heading">Proficiency</h1>
             <div className="skills-container">
+
                 <div className="skills-bar">
+                    <h1 className="skills-heading">Proficiency</h1>
                     {techStack.experience.map((exp) => {
                         const progressStyle = {
                             width: exp.progressPercentage

@@ -11,9 +11,14 @@ export default function Greeting() {
   const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="40px">
-        <h1 className="greeting-heading"> Think. Design. Build. </h1>
         <div className="greeting-main">
           <div className="greeting-text-div">
+              <h1
+                className={isDark ? "dark-mode greeting-text" : "greeting-text"}
+              >
+                {" "}
+                {greeting.title}{" "}
+              </h1>
               <p
                 className={
                   isDark
