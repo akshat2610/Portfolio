@@ -53,7 +53,10 @@ export default function ProjectCard({ cardInfo, isDark }) {
           <div className="bullet-header"> Tools used? </div>
           <div className="project-text-tools"> {cardInfo.tools} </div>
         </p>
-        <Button text="GitHub" href={cardInfo.link} newTab="true"/>
+        <div className="btnContainer">
+          <span className="GitHubBtn"> <Button text="GitHub" href={cardInfo.link} newTab="true"/> </span>
+          <span className="demoBtn"> <Button text="Demo" href={cardInfo.demo} newTab="true" /> </span>
+        </div>
       </div>
     </div>
   );

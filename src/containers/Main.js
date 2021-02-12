@@ -46,7 +46,6 @@ export default class Main extends Component {
           <WorkExperience />
           <Project projects={projects} label={"My work"}/>
           <Project projects={liveProjects} />
-          <Project projects={liveProjects} />
           <Contact />
           <Top />
         </StyleProvider>

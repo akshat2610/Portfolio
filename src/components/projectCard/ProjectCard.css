@@ -83,6 +83,17 @@
     white-space: nowrap;
 }
 
+.btnContainer{
+  width: 100%;
+  display:  inline-table;
+}
+.GitHubBtn{
+  float: left;
+}
+.demoBtn{
+  float: right;
+}
+
 .project-roundedimg {
     position: absolute;
     object-fit: cover;
