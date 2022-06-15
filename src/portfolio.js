@@ -11,7 +11,7 @@ const greeting = {
   title: "Think. Design. Build.",
   intro: "Hello, I am a software developer based in California. I am a Software Engineer based in California. I love to design software that adds value to people's lives. Throughout my undergrad, I have been focused on learning new technologies and quality development practices to build reliable, scalable, and secure backend services surrounding full stack development. My education has provided me with the opportunity to work alongside very creative and passionate people who love to solve problems with code as well.",
   work: "I enjoy engaging with challenging projects that require me to work outside my comfort zone and knowledge set as continuing to learn new languages and better development techniques are important to me and to the success of my employer. During my internship at Sleep Number as a Cloud Engineer, I worked with multithreaded, performance-driven, and highly-scalable codebase. I wrote code to capture metrics like CPU usage, memory usage, API response times of many services that were deployed on AWS. I worked alongside senior engineers to define custom service-specific metrics to monitor the health of the cloud infrastructure.",
-  resumeLink: "https://drive.google.com/file/d/1x7pntquAFCT6HyMuHEMN8XvwO5Z8IbDl/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1WFUPy3Dq2iDNeZDyzZ7xhS28ce3mbr7G/view?usp=sharing"
 };
 
 // Your Social Media Link
