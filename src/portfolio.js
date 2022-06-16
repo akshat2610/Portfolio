@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Akshat Bansal",
   title: "Think. Design. Build.",
-  intro: "Hello, I am a software developer based in California. I am a Software Engineer based in California. I love to design software that adds value to people's lives. Throughout my undergrad, I have been focused on learning new technologies and quality development practices to build reliable, scalable, and secure backend services surrounding full stack development. My education has provided me with the opportunity to work alongside very creative and passionate people who love to solve problems with code as well.",
+  intro: "Hello, I am Akshat. I am a Software Engineer based in California. I love to design software that adds value to people's lives. Throughout my undergrad, I have been focused on learning new technologies and quality development practices to build reliable, scalable, and secure backend services surrounding full stack development. My education has provided me with the opportunity to work alongside very creative and passionate people who love to solve problems with code as well.",
   work: "I enjoy engaging with challenging projects that require me to work outside my comfort zone and knowledge set as continuing to learn new languages and better development techniques are important to me and to the success of my employer. During my internship at Sleep Number as a Cloud Engineer, I worked with multithreaded, performance-driven, and highly-scalable codebase. I wrote code to capture metrics like CPU usage, memory usage, API response times of many services that were deployed on AWS. I worked alongside senior engineers to define custom service-specific metrics to monitor the health of the cloud infrastructure.",
   resumeLink: "https://drive.google.com/file/d/1WFUPy3Dq2iDNeZDyzZ7xhS28ce3mbr7G/view?usp=sharing"
 };
@@ -135,28 +135,49 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "AutoGrid",
+      companylogo: require("./assets/images/AutoGridLogo.jpg"),
+      date: "July 2021 – Present",
+      // desc: "My project this fall involved reporting metrics for different microservices to DataDog and setting up triggers for  abnormal events like high CPU load, memory usage, etc. Apart from these common metrics, we also had different KPIs defined for different microservices. For example, for the database manager service one of the KPI was the persistence latency between when a message is generated and when it is persisted in the database.",
+      daily: "Accomplishments:",
+      dailyBullets: [
+        "Helped scale the platform from being able to manage 300k Distributed Energy Resources (DERs) to 1M DERs by load testing our performance-testing environment with 800k, 1M, and 3M resources, profiling core functional components, and identifying bottlenecks in the system",
+        "Reduced API response times by 3-5% and HTTP 500 failure rate count by 10-15% across all the REST endpoints by optimizing Puma web server configuration for thread and process count per Docker container using Locust for load testing and New Relic, AWS RDS insights, Grafana, and Prometheus for metrics",
+        "Improved load times of a certain set of web pages by replacing on-render counting of resources with caching the count in a MySQL table and updating the caches with background cron jobs using Sidekiq",
+        "Improved application security by finding a critical vulnerability in the ruby gem used for sanitizing user inputs by injecting serialized JavaScript across the all the input fields in our legacy services",
+        "Designed robust REST APIs using Ruby on Rails framework for UI, Analytics, and PID controller teams by iterating on system design with feedback from tech leads for respective teams and senior engineers on the team",
+        "Increased code coverage from 81% to 87% for our service by adding unit tests using Rspec framework and integration tests using Python lemoncheesecake end-to-end testing framework"
+      ],
+      // tools: "Throughout the internship, I got hands-on experience with:"
+    },
+    {
+      role: "Software Engineering Intern",
+      company: "Entefy",
+      companylogo: require("./assets/images/EntefyLogo.png"),
+      date: "Feb 2021 – May 2021",
+      // desc: "My project this fall involved reporting metrics for different microservices to DataDog and setting up triggers for  abnormal events like high CPU load, memory usage, etc. Apart from these common metrics, we also had different KPIs defined for different microservices. For example, for the database manager service one of the KPI was the persistence latency between when a message is generated and when it is persisted in the database.",
+      daily: "Accomplishments:",
+      dailyBullets: [
+        "Developed POC microservice using NodeJS to demonstrate integration with Kafka, Redis, and PostgreSQL",
+        "Designed internal dashboard using ReactJS to monitor and visualize real-time API calls per user ",
+        "Researched and presented Python packages - nltk, scrapy, pandas – best suited for specific use cases"
+      ],
+      // tools: "Throughout the internship, I got hands-on experience with:"
+    },
+    {
       role: "Cloud Engineering Intern",
       company: "Sleep Number",
       companylogo: require("./assets/images/SNLogo.png"),
       date: "October 2020 – December 2020",
-      desc: "My project this fall involved reporting metrics for different microservices to DataDog and setting up triggers for  abnormal events like high CPU load, memory usage, etc. Apart from these common metrics, we also had different KPIs defined for different microservices. For example, for the database manager service one of the KPI was the persistence latency between when a message is generated and when it is persisted in the database.",
-      daily: "My workflow throughout the week:",
+      // desc: "My project this fall involved reporting metrics for different microservices to DataDog and setting up triggers for  abnormal events like high CPU load, memory usage, etc. Apart from these common metrics, we also had different KPIs defined for different microservices. For example, for the database manager service one of the KPI was the persistence latency between when a message is generated and when it is persisted in the database.",
+      daily: "Accomplishments:",
       dailyBullets: [
-        "Meet with mentor to clarify exactly what metrics we are trying to capture.",
-        "Document these metrics in Confluence and get the naming reviewed.",
-        "Meet with team and implement the metrics in code and raise PR.",
-        "Meet with mentor to deploy the code on test environment.",
-        "Make DataDog dashboards for the captured metrics.",
-        "Send dashboard links to QA."
+        "Captured infrastructure KPIs defined by cloud engineers such as Kafka consumer lag, PostgreSQL",
+        "Assessed exported metrics with the QA team using DataDog dashboards to ensure metric correctness",
+        "Presented metrics to the DevOps team to help them identify and resolve bottlenecks in the architecture"
       ],
-      tools: "Throughout the internship, I got hands-on experience with:",
-      toolsBullets:[
-        "AWS for our microservices architecture.",
-        "DataDog for infrastructure monitoring.",
-        "Jira for progress tracking.",
-        "Confluence for documentation.",
-        "Sumo logic for error logging."
-      ]
+      // tools: "Throughout the internship, I got hands-on experience with:"
     }
   ]
 };
