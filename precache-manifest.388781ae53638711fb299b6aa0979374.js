@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d49263918edf1dba184b99f8a3249629",
+    "revision": "7c18c4e9fad9763593157be3d42fa729",
     "url": "/index.html"
   },
   {
-    "revision": "f97a99bc944a96f5999c",
+    "revision": "f22468eadfc466bcd2ef",
     "url": "/static/css/main.6363e689.chunk.css"
   },
   {
-    "revision": "36e9810408b12b36d7e5",
-    "url": "/static/js/2.c9a6d65d.chunk.js"
+    "revision": "0f8702c840a4e65457c2",
+    "url": "/static/js/2.4a48422a.chunk.js"
   },
   {
     "revision": "0cf5ba2c00bbc0b01089c885c528fd0c",
-    "url": "/static/js/2.c9a6d65d.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4a48422a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f97a99bc944a96f5999c",
-    "url": "/static/js/main.59028842.chunk.js"
+    "revision": "f22468eadfc466bcd2ef",
+    "url": "/static/js/main.a1a43125.chunk.js"
   },
   {
     "revision": "727bb81301c0a0813296",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "9534844cba918b0805d2ad2bd8cd86ba",
+    "url": "/static/media/AutoGridLogo.9534844c.jpg"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
