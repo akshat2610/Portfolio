@@ -19,6 +19,15 @@ export default function ExperienceCard({ cardInfo, isDark }) {
     return descBullets ? descBullets.map((item) => <li className={isDark ? "subTitle dark-mode-text": "subTitle"}>{item}</li>) : null
   };
 
+  const GetStack = ({ stack, isDark }) => {
+    return stack ? stack.map((item) => 
+    <div className="stack-element">
+      <img src={require('../../assets/images/stack/' + item.imageName)} className="stack-image"/>
+      <p>{item.name}</p>
+    </div>
+    ): null
+  };
+
   return (
     <div className={isDark ? "experience-card-dark":"experience-card"}>
       <div style={{background: rgb(colorArrays) }} className="experience-banner">
@@ -41,6 +50,12 @@ export default function ExperienceCard({ cardInfo, isDark }) {
         <ul>
           <GetDescBullets descBullets={cardInfo.toolsBullets} isDark={isDark} />
         </ul>
+        <p>
+          Tools
+        </p>
+        <div className="stack-container">
+          <GetStack stack={cardInfo.stack} isDark={isDark} />
+        </div>
       </div>
     </div>
   );

@@ -150,6 +150,40 @@ const workExperiences = {
         "Increased code coverage from 81% to 87% for our service by adding unit tests using Rspec framework and integration tests using Python lemoncheesecake end-to-end testing framework"
       ],
       // tools: "Throughout the internship, I got hands-on experience with:"
+      stack: [
+        {
+          name: "Rails",
+          imageName: "RailsLogo.png"
+        },
+        {
+          name: "MySQL",
+          imageName: "MySQLLogo.png"
+        },
+        {
+          name: "Kubernetes",
+          imageName: "KubernetesLogo.png"
+        },
+        {
+          name: "Kafka",
+          imageName: "KafkaLogo.png"
+        },
+        {
+          name: "Redis",
+          imageName: "RedisLogo.png"
+        },
+        {
+          name: "Docker",
+          imageName: "DockerLogo.png"
+        },
+        {
+          name: "Jenkins",
+          imageName: "JenkinsLogo.png"
+        },
+        {
+          name: "Python",
+          imageName: "PythonLogo.png"
+        }
+      ]
     },
     {
       role: "Software Engineering Intern",
@@ -164,6 +198,32 @@ const workExperiences = {
         "Researched and presented Python packages - nltk, scrapy, pandas – best suited for specific use cases"
       ],
       // tools: "Throughout the internship, I got hands-on experience with:"
+      stack: [
+        {
+          name: "Material UI",
+          imageName: "MaterialUILogo.png"
+        },
+        {
+          name: "React",
+          imageName: "ReactLogo.png"
+        },
+        {
+          name: "Node",
+          imageName: "NodeLogo.png"
+        },
+        {
+          name: "Python",
+          imageName: "PythonLogo.png"
+        },
+        {
+          name: "PostgreS",
+          imageName: "PostgreSQLLogo.png"
+        },
+        {
+          name: "Kafka",
+          imageName: "KafkaLogo.png"
+        }
+      ]
     },
     {
       role: "Cloud Engineering Intern",
@@ -178,6 +238,32 @@ const workExperiences = {
         "Presented metrics to the DevOps team to help them identify and resolve bottlenecks in the architecture"
       ],
       // tools: "Throughout the internship, I got hands-on experience with:"
+      stack: [
+        {
+          name: "Java",
+          imageName: "JavaLogo.png"
+        },
+        {
+          name: "DataDog",
+          imageName: "DataDogLogo.png"
+        },
+        {
+          name: "MySQL",
+          imageName: "MySQLLogo.png"
+        },
+        {
+          name: "Docker",
+          imageName: "DockerLogo.png"
+        },
+        {
+          name: "Jenkins",
+          imageName: "JenkinsLogo.png"
+        },
+        {
+          name: "AWS",
+          imageName: "AWSLogo.png"
+        }
+      ]
     }
   ]
 };

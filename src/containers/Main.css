@@ -3,3 +3,22 @@
   color: white;
   transition: "0.1s";
 }
+
+.stack-image{
+    width: auto;
+    height: 3rem;
+}
+
+.stack-element{
+  padding-right: 1.6%;
+  text-align: center;
+  font-size: x-small;
+  min-width: none;
+}
+
+.stack-container{
+  display: flex;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+}
