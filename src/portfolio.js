@@ -75,8 +75,8 @@ const educationInfo = {
       role: "Bachelors of Science in Computer Science",
       company: "San Jose State University",
       companylogo: require("./assets/images/sjsuLogo.png"),
-      date: "August 2017 - Present",
-      desc: "3.7/4.0",
+      date: "August 2017 - May 2021",
+      desc: "3.6/4.0",
       daily: "Honors and awards:",
       dailyBullets: [
         "Dean's Scholar 2017",
