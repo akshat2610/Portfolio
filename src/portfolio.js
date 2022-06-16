@@ -294,6 +294,20 @@ const projects = {
         "Exports the summary video by concatenating the subclips."
       ],
       tools: "Python, nltk, moviePy, Selenium, Flask, Docker",
+      stack: [
+        {
+          name: "Python",
+          imageName: "PythonLogo.png"
+        },
+        {
+          name: "Flask",
+          imageName: "FlaskLogo.png"
+        },
+        {
+          name: "Docker",
+          imageName: "DockerLogo.png"
+        }
+      ],
       link: "https://github.com/akshat2610/Video-summary-project"
     },
     {
@@ -318,6 +332,20 @@ const projects = {
         "Visualizes hours spent on different activities and events to help minimize bad habits and maximize good habits."
       ],
       tools: "Java, Swing, JUnit",
+      stack: [
+        {
+          name: "Java",
+          imageName: "JavaLogo.png"
+        },
+        {
+          name: "Spring boot",
+          imageName: "SpringBoot.png"
+        },
+        {
+          name: "JUnit",
+          imageName: "JUnitLogo.png"
+        }
+      ],
       link: "https://github.com/akshat2610/Planner"
     },
     {
@@ -341,6 +369,20 @@ const projects = {
         "Plots skill vs frequency.",
       ],
       tools: "Python, bs4, xlwt, pandas, matplotlib",
+      stack: [
+        {
+          name: "Python",
+          imageName: "PythonLogo.png"
+        },
+        {
+          name: "Flask",
+          imageName: "FlaskLogo.png"
+        },
+        {
+          name: "Docker",
+          imageName: "DockerLogo.png"
+        }
+      ],
       link: "https://github.com/akshat2610/LinkedIn-Automation-Scraping-and-Analysis"
     }
   ]

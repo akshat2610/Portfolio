@@ -20,6 +20,15 @@ export default function ProjectCard({ cardInfo, isDark }) {
     return descBullets ? descBullets.map((item) => <li className={isDark ? "subTitle dark-mode-text": "subTitle"}>{item}</li>) : null
   };
 
+  const GetStack = ({ stack, isDark }) => {
+    return stack ? stack.map((item) => 
+    <div className="stack-element">
+      <img src={require('../../assets/images/stack/' + item.imageName)} className="stack-image"/>
+      <p>{item.name}</p>
+    </div>
+    ): null
+  };
+
   return (
     <div className={isDark ? "project-card-dark":"project-card"}>
       <div style={{background: rgb(colorArrays) }} className="project-banner">
@@ -49,11 +58,13 @@ export default function ProjectCard({ cardInfo, isDark }) {
             <GetDescBullets descBullets={cardInfo.workingBullets} isDark={isDark} />
           </ul>
         </p>
-        <p>
-          <div className="bullet-header"> Tools used? </div>
-          <div className="project-text-tools"> {cardInfo.tools} </div>
+        <p className="bullet-header">
+          Tools
         </p>
-        <Button text="GitHub" href={cardInfo.link} newTab="true"/>
+        <div className="stack-container">
+          <GetStack stack={cardInfo.stack} isDark={isDark} />
+        </div>
+        {/* <Button text="GitHub" href={cardInfo.link} newTab="true"/> */}
       </div>
     </div>
   );
