@@ -1,19 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.6363e689.chunk.css",
-    "main.js": "/static/js/main.a1a43125.chunk.js",
-    "main.js.map": "/static/js/main.a1a43125.chunk.js.map",
+    "main.css": "/static/css/main.c2d0b92e.chunk.css",
+    "main.js": "/static/js/main.f40b82d8.chunk.js",
+    "main.js.map": "/static/js/main.f40b82d8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.813b8e1e.js",
     "runtime-main.js.map": "/static/js/runtime-main.813b8e1e.js.map",
     "static/js/2.4a48422a.chunk.js": "/static/js/2.4a48422a.chunk.js",
     "static/js/2.4a48422a.chunk.js.map": "/static/js/2.4a48422a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.388781ae53638711fb299b6aa0979374.js": "/precache-manifest.388781ae53638711fb299b6aa0979374.js",
+    "precache-manifest.d1376ee38b627cea88e88a11a073796c.js": "/precache-manifest.d1376ee38b627cea88e88a11a073796c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6363e689.chunk.css.map": "/static/css/main.6363e689.chunk.css.map",
+    "static/css/main.c2d0b92e.chunk.css.map": "/static/css/main.c2d0b92e.chunk.css.map",
     "static/js/2.4a48422a.chunk.js.LICENSE.txt": "/static/js/2.4a48422a.chunk.js.LICENSE.txt",
+    "static/media/AWSLogo.png": "/static/media/AWSLogo.a7e580cb.png",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/AutoGridLogo.jpg": "/static/media/AutoGridLogo.9534844c.jpg",
+    "static/media/DataDogLogo.png": "/static/media/DataDogLogo.b5fb69dc.png",
+    "static/media/JavaLogo.png": "/static/media/JavaLogo.4eb1819d.png",
+    "static/media/JenkinsLogo.png": "/static/media/JenkinsLogo.bb04496c.png",
+    "static/media/KafkaLogo.png": "/static/media/KafkaLogo.47ede37e.png",
+    "static/media/KubernetesLogo.png": "/static/media/KubernetesLogo.ea798a7a.png",
+    "static/media/MySQLLogo.png": "/static/media/MySQLLogo.94821cfe.png",
+    "static/media/NodeLogo.png": "/static/media/NodeLogo.270f55ff.png",
+    "static/media/PostgreSQLLogo.png": "/static/media/PostgreSQLLogo.a05b6e7e.png",
+    "static/media/RailsLogo.png": "/static/media/RailsLogo.64fcd850.png",
+    "static/media/ReactLogo.png": "/static/media/ReactLogo.776fd826.png",
+    "static/media/RedisLogo.png": "/static/media/RedisLogo.107069d8.png",
     "static/media/SDLCLogo.png": "/static/media/SDLCLogo.895055e5.png",
     "static/media/SNLogo.png": "/static/media/SNLogo.efadadf6.png",
     "static/media/linkedinLogo.webp": "/static/media/linkedinLogo.c6e65d79.webp",
@@ -27,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.813b8e1e.js",
     "static/js/2.4a48422a.chunk.js",
-    "static/css/main.6363e689.chunk.css",
-    "static/js/main.a1a43125.chunk.js"
+    "static/css/main.c2d0b92e.chunk.css",
+    "static/js/main.f40b82d8.chunk.js"
   ]
 }

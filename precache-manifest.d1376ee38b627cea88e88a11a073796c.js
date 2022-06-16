@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c18c4e9fad9763593157be3d42fa729",
+    "revision": "5350b8599b9c52e2b48accf225393ed2",
     "url": "/index.html"
   },
   {
-    "revision": "f22468eadfc466bcd2ef",
-    "url": "/static/css/main.6363e689.chunk.css"
+    "revision": "63fde7e54aca458d0600",
+    "url": "/static/css/main.c2d0b92e.chunk.css"
   },
   {
     "revision": "0f8702c840a4e65457c2",
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.4a48422a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f22468eadfc466bcd2ef",
-    "url": "/static/js/main.a1a43125.chunk.js"
+    "revision": "63fde7e54aca458d0600",
+    "url": "/static/js/main.f40b82d8.chunk.js"
   },
   {
     "revision": "727bb81301c0a0813296",
     "url": "/static/js/runtime-main.813b8e1e.js"
+  },
+  {
+    "revision": "a7e580cb3bd89c20500fce34a3b63e56",
+    "url": "/static/media/AWSLogo.a7e580cb.png"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -32,8 +36,52 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/AutoGridLogo.9534844c.jpg"
   },
   {
+    "revision": "b5fb69dcda9ae1504a63903e6be35626",
+    "url": "/static/media/DataDogLogo.b5fb69dc.png"
+  },
+  {
+    "revision": "4eb1819dc863ef386e09d86e9f482a9f",
+    "url": "/static/media/JavaLogo.4eb1819d.png"
+  },
+  {
+    "revision": "bb04496cbeafb34f0d44dcce8f6e1631",
+    "url": "/static/media/JenkinsLogo.bb04496c.png"
+  },
+  {
+    "revision": "47ede37ee045a51073527ddad9694be6",
+    "url": "/static/media/KafkaLogo.47ede37e.png"
+  },
+  {
+    "revision": "ea798a7abf761b1b7b965a9f16eee1a6",
+    "url": "/static/media/KubernetesLogo.ea798a7a.png"
+  },
+  {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "94821cfecbda59d19d109b8493b4c196",
+    "url": "/static/media/MySQLLogo.94821cfe.png"
+  },
+  {
+    "revision": "270f55fffea36219b66a63fbe03ff497",
+    "url": "/static/media/NodeLogo.270f55ff.png"
+  },
+  {
+    "revision": "a05b6e7e349788ae1476397b34512caf",
+    "url": "/static/media/PostgreSQLLogo.a05b6e7e.png"
+  },
+  {
+    "revision": "64fcd850e32e689456f94a8442602393",
+    "url": "/static/media/RailsLogo.64fcd850.png"
+  },
+  {
+    "revision": "776fd8269417774ef8b29304781e5277",
+    "url": "/static/media/ReactLogo.776fd826.png"
+  },
+  {
+    "revision": "107069d84c7d772502f9e3a27efc8496",
+    "url": "/static/media/RedisLogo.107069d8.png"
   },
   {
     "revision": "895055e58873480949ef2c06f8daf8bf",
