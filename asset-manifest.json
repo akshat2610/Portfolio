@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2d0b92e.chunk.css",
-    "main.js": "/static/js/main.da1a8cb2.chunk.js",
-    "main.js.map": "/static/js/main.da1a8cb2.chunk.js.map",
+    "main.css": "/static/css/main.4c6caddf.chunk.css",
+    "main.js": "/static/js/main.b71c5403.chunk.js",
+    "main.js.map": "/static/js/main.b71c5403.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.813b8e1e.js",
     "runtime-main.js.map": "/static/js/runtime-main.813b8e1e.js.map",
-    "static/js/2.fc328f83.chunk.js": "/static/js/2.fc328f83.chunk.js",
-    "static/js/2.fc328f83.chunk.js.map": "/static/js/2.fc328f83.chunk.js.map",
+    "static/js/2.e6559577.chunk.js": "/static/js/2.e6559577.chunk.js",
+    "static/js/2.e6559577.chunk.js.map": "/static/js/2.e6559577.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.900ed00b524ccf169813a61c65e6deca.js": "/precache-manifest.900ed00b524ccf169813a61c65e6deca.js",
+    "precache-manifest.1713f629295586ff12f27963a9fe0dff.js": "/precache-manifest.1713f629295586ff12f27963a9fe0dff.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.c2d0b92e.chunk.css.map": "/static/css/main.c2d0b92e.chunk.css.map",
-    "static/js/2.fc328f83.chunk.js.LICENSE.txt": "/static/js/2.fc328f83.chunk.js.LICENSE.txt",
+    "static/css/main.4c6caddf.chunk.css.map": "/static/css/main.4c6caddf.chunk.css.map",
+    "static/js/2.e6559577.chunk.js.LICENSE.txt": "/static/js/2.e6559577.chunk.js.LICENSE.txt",
     "static/media/AWSLogo.png": "/static/media/AWSLogo.a7e580cb.png",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/AutoGridLogo.jpg": "/static/media/AutoGridLogo.9534844c.jpg",
@@ -31,7 +31,6 @@
     "static/media/SNLogo.png": "/static/media/SNLogo.efadadf6.png",
     "static/media/SpringBoot.png": "/static/media/SpringBoot.20f521b6.png",
     "static/media/linkedinLogo.webp": "/static/media/linkedinLogo.c6e65d79.webp",
-    "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
     "static/media/profilePhoto.jpeg": "/static/media/profilePhoto.807aa889.jpeg",
     "static/media/rocketLogo.png": "/static/media/rocketLogo.67f3e18f.png",
     "static/media/sjsuLogo.png": "/static/media/sjsuLogo.8031c795.png",
@@ -40,8 +39,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.813b8e1e.js",
-    "static/js/2.fc328f83.chunk.js",
-    "static/css/main.c2d0b92e.chunk.css",
-    "static/js/main.da1a8cb2.chunk.js"
+    "static/js/2.e6559577.chunk.js",
+    "static/css/main.4c6caddf.chunk.css",
+    "static/js/main.b71c5403.chunk.js"
   ]
 }
