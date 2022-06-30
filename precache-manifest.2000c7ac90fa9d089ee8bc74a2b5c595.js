@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b369ae29cddbc13375ce4544f685d641",
+    "revision": "19cf50e51616057ce6a9c7c82e1333dc",
     "url": "/index.html"
   },
   {
-    "revision": "fa04855265b6ed8666c5",
-    "url": "/static/css/main.5efaaa9f.chunk.css"
+    "revision": "ea1c9958a6c5f77ed3be",
+    "url": "/static/css/main.b51b5c4a.chunk.css"
   },
   {
-    "revision": "9cb1fa4cefc90b299103",
-    "url": "/static/js/2.e6559577.chunk.js"
+    "revision": "da6ad5d6a6f4861e8d69",
+    "url": "/static/js/2.19ed2bdd.chunk.js"
   },
   {
     "revision": "0cf5ba2c00bbc0b01089c885c528fd0c",
-    "url": "/static/js/2.e6559577.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.19ed2bdd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa04855265b6ed8666c5",
-    "url": "/static/js/main.b71c5403.chunk.js"
+    "revision": "ea1c9958a6c5f77ed3be",
+    "url": "/static/js/main.017aad00.chunk.js"
   },
   {
     "revision": "727bb81301c0a0813296",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/NodeLogo.270f55ff.png"
   },
   {
+    "revision": "f459032ba2ad02297011a0b7e45d312c",
+    "url": "/static/media/OOPSLogo.f459032b.png"
+  },
+  {
     "revision": "a05b6e7e349788ae1476397b34512caf",
     "url": "/static/media/PostgreSQLLogo.a05b6e7e.png"
   },
@@ -100,6 +104,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SpringBoot.20f521b6.png"
   },
   {
+    "revision": "8b95af8e98aa818e23a634d33f4ecefc",
+    "url": "/static/media/backendLogo.8b95af8e.webp"
+  },
+  {
+    "revision": "0cfcd8b05bac837c117a67f4e5a56ccb",
+    "url": "/static/media/dataStructuresLogo.0cfcd8b0.png"
+  },
+  {
+    "revision": "840cb5e360efe2e004290c0a895d8611",
+    "url": "/static/media/databaseLogo.840cb5e3.jpeg"
+  },
+  {
     "revision": "c6e65d793756fdfc3e624c0d8294b3de",
     "url": "/static/media/linkedinLogo.c6e65d79.webp"
   },
@@ -114,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8031c795c922e5738963e1dcf6f9bd5f",
     "url": "/static/media/sjsuLogo.8031c795.png"
+  },
+  {
+    "revision": "b50ea54d30cd32d980cd3b8aa6d3e2ba",
+    "url": "/static/media/softwareEngLogo.b50ea54d.jpg"
   },
   {
     "revision": "25b7d1434e63c9f06c3bd8250e5f44e3",

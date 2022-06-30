@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5efaaa9f.chunk.css",
-    "main.js": "/static/js/main.b71c5403.chunk.js",
-    "main.js.map": "/static/js/main.b71c5403.chunk.js.map",
+    "main.css": "/static/css/main.b51b5c4a.chunk.css",
+    "main.js": "/static/js/main.017aad00.chunk.js",
+    "main.js.map": "/static/js/main.017aad00.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.813b8e1e.js",
     "runtime-main.js.map": "/static/js/runtime-main.813b8e1e.js.map",
-    "static/js/2.e6559577.chunk.js": "/static/js/2.e6559577.chunk.js",
-    "static/js/2.e6559577.chunk.js.map": "/static/js/2.e6559577.chunk.js.map",
+    "static/js/2.19ed2bdd.chunk.js": "/static/js/2.19ed2bdd.chunk.js",
+    "static/js/2.19ed2bdd.chunk.js.map": "/static/js/2.19ed2bdd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6eb00879c7c224719fa4bf3e8b04a444.js": "/precache-manifest.6eb00879c7c224719fa4bf3e8b04a444.js",
+    "precache-manifest.2000c7ac90fa9d089ee8bc74a2b5c595.js": "/precache-manifest.2000c7ac90fa9d089ee8bc74a2b5c595.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5efaaa9f.chunk.css.map": "/static/css/main.5efaaa9f.chunk.css.map",
-    "static/js/2.e6559577.chunk.js.LICENSE.txt": "/static/js/2.e6559577.chunk.js.LICENSE.txt",
+    "static/css/main.b51b5c4a.chunk.css.map": "/static/css/main.b51b5c4a.chunk.css.map",
+    "static/js/2.19ed2bdd.chunk.js.LICENSE.txt": "/static/js/2.19ed2bdd.chunk.js.LICENSE.txt",
     "static/media/AWSLogo.png": "/static/media/AWSLogo.a7e580cb.png",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/AutoGridLogo.jpg": "/static/media/AutoGridLogo.9534844c.jpg",
@@ -23,6 +23,7 @@
     "static/media/KubernetesLogo.png": "/static/media/KubernetesLogo.ea798a7a.png",
     "static/media/MySQLLogo.png": "/static/media/MySQLLogo.94821cfe.png",
     "static/media/NodeLogo.png": "/static/media/NodeLogo.270f55ff.png",
+    "static/media/OOPSLogo.png": "/static/media/OOPSLogo.f459032b.png",
     "static/media/PostgreSQLLogo.png": "/static/media/PostgreSQLLogo.a05b6e7e.png",
     "static/media/RailsLogo.png": "/static/media/RailsLogo.64fcd850.png",
     "static/media/ReactLogo.png": "/static/media/ReactLogo.776fd826.png",
@@ -30,17 +31,21 @@
     "static/media/SDLCLogo.png": "/static/media/SDLCLogo.895055e5.png",
     "static/media/SNLogo.png": "/static/media/SNLogo.efadadf6.png",
     "static/media/SpringBoot.png": "/static/media/SpringBoot.20f521b6.png",
+    "static/media/backendLogo.webp": "/static/media/backendLogo.8b95af8e.webp",
+    "static/media/dataStructuresLogo.png": "/static/media/dataStructuresLogo.0cfcd8b0.png",
+    "static/media/databaseLogo.jpeg": "/static/media/databaseLogo.840cb5e3.jpeg",
     "static/media/linkedinLogo.webp": "/static/media/linkedinLogo.c6e65d79.webp",
     "static/media/profilePhoto.jpeg": "/static/media/profilePhoto.807aa889.jpeg",
     "static/media/rocketLogo.png": "/static/media/rocketLogo.67f3e18f.png",
     "static/media/sjsuLogo.png": "/static/media/sjsuLogo.8031c795.png",
+    "static/media/softwareEngLogo.jpg": "/static/media/softwareEngLogo.b50ea54d.jpg",
     "static/media/systemLogo.png": "/static/media/systemLogo.25b7d143.png",
     "static/media/valuesLogo.png": "/static/media/valuesLogo.7e31b892.png"
   },
   "entrypoints": [
     "static/js/runtime-main.813b8e1e.js",
-    "static/js/2.e6559577.chunk.js",
-    "static/css/main.5efaaa9f.chunk.css",
-    "static/js/main.b71c5403.chunk.js"
+    "static/js/2.19ed2bdd.chunk.js",
+    "static/css/main.b51b5c4a.chunk.css",
+    "static/js/main.017aad00.chunk.js"
   ]
 }
